@@ -1,0 +1,22 @@
+{
+  "name": "Zenit Polar Conversor",
+  "description": "Simple implemetation of zenit polar decrypt created to study Angular",
+  "main": "gulpfile.js",
+  "authors": [
+    "amandavilela <amandavilelaalmeida@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/amandavilela/zenit-polar-conversor",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.3",
+    "angular": "~1.5.3"
+  }
+}

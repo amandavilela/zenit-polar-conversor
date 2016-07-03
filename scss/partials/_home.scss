@@ -1,0 +1,46 @@
+body {
+  background: $primary;
+  color: $secondary;
+}
+
+.conversor {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+
+  h1, h2 {
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  div {
+    margin: auto;
+    width: 36vw;
+
+    span {
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+  }
+
+  textarea {
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    width: 100%;
+    resize: vertical;
+    font-size: 1.2rem;
+    color: #042b50;
+    text-transform: uppercase;
+  }
+
+  .result {
+    text-align: justify;
+    background: #fff;
+    padding: 20px;
+    font-size: 1.4rem;
+    color: #042b50;
+  }
+
+}

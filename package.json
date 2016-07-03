@@ -1,0 +1,30 @@
+{
+  "name": "zenit-polar-conversor",
+  "version": "1.0.0",
+  "description": "Zenit Polar Conversor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amandavilela/zenit-polar-conversor.git"
+  },
+  "keywords": [
+    "zenit polar conversor"
+  ],
+  "author": "Amanda Vilela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandavilela/zenit-polar-conversor/issues"
+  },
+  "homepage": "https://github.com/amandavilela/zenit-polar-conversor#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "node-sass": "^3.4.2"
+  }
+}
