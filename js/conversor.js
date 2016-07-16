@@ -1,14 +1,16 @@
 angular.module('ZenitPolar', [])
   .controller('MainController', MainController);
 
-function MainController($scope) {
+function MainController() {
+
+  var vm = this;
 
   var textToArray = function (text) {
     return text.split("");
   }
 
-  $scope.convertText = function () {
-    var text = textToArray($scope.inputText.toLowerCase());
+  vm.convertText = function () {
+    var text = textToArray(vm.inputText.toLowerCase());
     var zenit = ["z", "e", "n", "i", "t"];
     var polar = ["p", "o", "l", "a", "r"];
     var newText = [];
@@ -25,9 +27,7 @@ function MainController($scope) {
       }
     });
 
-    $scope.convertedText = newText.join("").toUpperCase();
+    vm.convertedText = newText.join("").toUpperCase();
   }
 
 }
-
-MainController['$inject'] = ['$scope'];
